@@ -51,7 +51,7 @@ nav{
     background-image: url("../images/developer.png"), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: left, bottom right;
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 
@@ -88,7 +88,8 @@ nav{
     width: 827px;
     height: 288px;
     margin: 0 auto; 
-    border-radius: 10px;      
+    border-radius: 20px;
+   
 }
 
 .sec-1-head-about-me{
@@ -96,7 +97,10 @@ nav{
     font-size: 35px;
     color: #e6670c;
     margin-bottom: 30px;
+    padding-top: 15px;
+
 }
+
 
 #name{
     margin-left: 20px;
@@ -121,6 +125,66 @@ nav{
     margin-bottom: 130px;
 }
 
+.sec-2-background{
+    background-color: #FD6E0A;
+    width: 1590px;
+    height: 790px;
+    margin: 0 auto;
+    border-radius: 75px;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 80px;
+}
+
+.sec-2-title{
+    text-align: center;
+    width: 1080px;
+    height: 490px;
+    background-color: rgb(248, 248, 248);
+    margin: auto;
+    padding: 50px;
+    justify-content: center;
+    border-radius: 45px;
+}
+
+.sec-2-head-what-i-do{
+    font-weight: bold;
+    font-size: 35px;
+    color: #e6670c;
+    margin-bottom: 10px;
+}
+
+.sec-2-paragraph{
+    font-weight: 400;
+    font-size: 20px;
+    color: #bd5811;
+}
+
+.sec-2-card-box{
+    background-color:  #eeeed7;
+    width: 230px;
+    height: 280px;
+    border-radius: 16px;
+    padding: 15px;
+    justify-items: left;
+    text-align: left;
+    text-align: justify;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.sec-2-head{
+    margin-top: 5px;
+}
+
+.sec-2-head-paragraph{
+    margin-top: 15px;
+}
+
+.sec-2-all-card-box{
+    display: flex;
+    justify-content: space-between;
+}
 
 .banner-description{
     margin-bottom: 30px;
